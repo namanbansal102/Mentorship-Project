@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIET University Mentorship Program</title>
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="privacy.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">  
+          <a href="#" class="navbar-logo">
+            <img src="assets/logo.png" alt="">
+          </a>
+         
+          <ul class="navbar-menu">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="faculties.html"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
+            <li><a href="faculties.html"><i class="fas fa-user-friends"></i> Mentors</a></li>
+            <li><a href="/allmentors/p_1.html"><i class="fas fa-calendar-check"></i> Book</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+          </ul>
+          <div class="navbar-actions">
+        
+            <a href="#login" class="login-button" id="login-button">
+              <i class="fas fa-user"></i>
+              <span>Login</span>
+            </a>
+            <div class="user-profile" id="user-profile" style="display: none;">
+              <img src="" alt="User Profile" class="profile-image" id="navbar-profile-image">
+              <span class="user-name" id="navbar-user-name"></span>
+              <button type="submit" class="logoutbtn">Logout</button>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Content Placeholder -->
+    <section id="home">
+        <h1>Welcome to the SLIET Mentorship Program</h1>
+    </section>
+
+
+    <div class="container">
+        <div class="content">
+            <span class="hashtag"># SLIET's Premier Student Mentorship Platform</span>
+            <h1>Nurturing Minds, <span>Shaping Futures</span></h1>
+            <p>Empowering SLIET students through personalized guidance and support from experienced faculty mentors</p>
+            <a href="faculties.html" class="btn">Book a FREE Mentorship Session</a>
+        </div>
+        <div class="image-container">
+            <div class="background-shape"></div>
+            <img src="./assets/lecturer.png" alt="SLIET Mentor" class="student-image">
+            <span class="emoji emoji-smile">😊</span>
+            <span class="emoji emoji-play">▶️</span>
+        </div>
+    </div>
+
+
+    <div class="container2">
+        <div class="header">
+            <h1>Empowering <span>SLIET Students</span></h1>
+            <p>Fostering academic excellence and personal growth through expert mentorship.</p>
+        </div>
+        <div class="bottom-section">
+            <div class="book-session">
+                <h2>Book Mentorship Session Now</h2>
+                <p>Take the first step towards your academic and professional success—Book a session now. Let's cultivate knowledge and skills together! Your journey to excellence begins here!</p>
+                <a href="faculties.html" class="btn">See All Mentors</a>
+            </div>
+            <img src="https://www.healthgennie.com/img/BookSessionNow.png" alt="Happy Students" class="people-image">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-2">
+
+        <h1>Top Faculty Mentors To Guide Your <span>Academic Journey</span></h1>
+        <p>Schedule A Mentorship Session To Boost Your Learning And Career Prospects.</p>
+        <div class="carousel">
+            <div class="carousel-container" id="specialistContainer"></div>
+            <button class="nav-button prev" onclick="navigate(-1)">&#10094;</button>
+            <button class="nav-button next" onclick="navigate(1)">&#10095;</button>
+        </div>
+        </div>
+
+        <div class="customer-profile">
+            <h2>Our Student Profile</h2>
+            <p>Our mentorship program caters to ambitious SLIET students who are committed to academic excellence and professional growth.</p>
+            <div class="profile-stats">
+                <div class="stat">
+                    <img src="../assets/smiling.png" alt="Happy Students">
+                    <h3>5000 +</h3>
+                    <p>Mentored Students</p>
+                </div>
+                <div class="stat">
+                    <img src="../assets/doctor.png" alt="Faculty Mentors">
+                    <h3>100 +</h3>
+                    <p>Faculty Mentors</p>
+                </div>
+                <div class="stat">
+                    <img src="../assets/cloud-computing.png" alt="Mentorship Sessions">
+                    <h3>10000 +</h3>
+                    <p>Mentorship Sessions</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="explore-section">
+            <h2>Explore More <span>About SLIET Mentorship</span></h2>
+            <p>Stay updated with the latest mentorship insights and success stories through our blog.</p>
+            <button class="see-all-blogs">See All Blogs</button>
+            <div class="blog-cards">
+                <div class="blog-card">
+                    <img src="https://www.healthgennie.com/public/newsFeedFiles/DrinkingandSmokinginTeensAGrowingProblem.jpg" alt="Career Guidance">
+                    <div class="blog-content">
+                        <h3>Career Guidance, Internships, Industry Connections</h3>
+                        <p class="date">September 14, 2024</p>
+                        <p>How SLIET Mentorship Program Bridges the Gap Between Academia and Industry</p>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://www.healthgennie.com/public/newsFeedFiles/EffectiveTherapiesforChildhoodTrauma.jpg" alt="Research Opportunities">
+                    <div class="blog-content">
+                        <h3>Research, Innovation, Faculty Collaboration</h3>
+                        <p class="date">August 28, 2024</p>
+                        <p>Unlocking Research Opportunities Through SLIET's Mentorship Program</p>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://www.healthgennie.com/public/newsFeedFiles/MostCommonObesity-RelatedComorbidities.jpg" alt="Skill Development">
+                    <div class="blog-content">
+                        <h3>Skill Development, Workshops, Hands-on Training</h3>
+                        <p class="date">August 16, 2024</p>
+                        <p>Enhancing Technical and Soft Skills: The SLIET Mentorship Advantage</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="privacy-section">
+            <h2 class="privacy-title">We Value Your <span>Growth</span></h2>
+            <p class="privacy-subtitle">Personalized, Secure, and Transformative Mentorship Experience</p>
+            <div class="privacy-features">
+                <div class="privacy-feature">
+                    <img src="https://api.iconify.design/mdi:check-decagram.svg" alt="Experienced" class="privacy-feature-icon">
+                    <p class="privacy-feature-text">Experienced Faculty Mentors</p>
+                </div>
+                <div class="privacy-feature">
+                    <img src="https://api.iconify.design/mdi:shield-lock.svg" alt="Confidential" class="privacy-feature-icon">
+                    <p class="privacy-feature-text">Confidential Mentorship Sessions</p>
+                </div>
+                <div class="privacy-feature">
+                    <img src="https://api.iconify.design/mdi:hand-heart.svg" alt="Personalized" class="privacy-feature-icon">
+                    <p class="privacy-feature-text">Personalized Academic and Career Guidance</p>
+                </div>
+                <div class="privacy-feature">
+                    <img src="https://api.iconify.design/mdi:account-group.svg" alt="For everyone" class="privacy-feature-icon">
+                    <p class="privacy-feature-text">For All SLIET Students</p>
+                </div>
+                <div class="privacy-feature">
+                    <img src="https://api.iconify.design/mdi:account-tie.svg" alt="Experts" class="privacy-feature-icon">
+                    <p class="privacy-feature-text">Industry-Aligned Mentorship</p>
+                </div>
+                <div class="privacy-feature">
+                    <img src="https://api.iconify.design/mdi:microscope.svg" alt="Research" class="privacy-feature-icon">
+                    <p class="privacy-feature-text">Research Opportunities</p>
+                </div>
+            </div>
+        </section>
+        <div class="hg-container">
+            <header class="hg-header">
+                <h1 class="hg-title">Why Choose <span class="hg-title-highlight">SLIET Mentorship</span></h1>
+            </header>
+            <main class="hg-main-content">
+                <div class="hg-phone-mockup">
+                    <img class="hg-phone-image" src="https://www.healthgennie.com/img/dx-new-web.png" alt="SLIET Mentorship App Interface">
+                </div>
+                <div class="hg-features">
+                    <ul class="hg-feature-list">
+                        <li class="hg-feature-item">SLIET's premier digital mentorship platform for students</li>
+                        <li class="hg-feature-item">Holistic approach to academic and professional development</li>
+                        <li class="hg-feature-item">Promotion of intellectual, personal, and career growth</li>
+                        <li class="hg-feature-item">Access to exclusive workshops and seminars</li>
+                        <li class="hg-feature-item">Easy scheduling of mentorship sessions</li>
+                        <li class="hg-feature-item">Personalized attention from experienced faculty</li>
+                        <li class="hg-feature-item">Digital tracking of your mentorship journey</li>
+                        <li class="hg-feature-item">Goal setting and progress monitoring</li>
+                        <li class="hg-feature-item">Easy access to all mentorship services at your fingertips</li>
+                        <li class="hg-feature-item">Academic and skill development tracking</li>
+                        <li class="hg-feature-item">Seamless communication with mentors</li>
+                    </ul>
+                </div>
+            </main>
+            <section class="hg-testimonials">
+                <h2 class="hg-testimonials-title">SLIET Mentorship: Trusted By Students</h2>
+                <p class="hg-testimonials-subtitle">Discover how our mentorship program is transforming academic journeys and career prospects for SLIET students!</p>
+                <div class="hg-testimonial-container">
+                    <div class="hg-testimonial">
+                        <p class="hg-testimonial-text">The SLIET mentorship program has been a game-changer for my academic journey. My mentor's guidance helped me secure a great internship!</p>
+                        <span class="hg-testimonial-author">- Rahul Sharma, B.Tech Computer Science</span>
+                    </div>
+                    <div class="hg-testimonial">
+                        <p class="hg-testimonial-text">Thanks to my faculty mentor, I was able to publish my first research paper. The personalized attention and support are invaluable.</p>
+                        <span class="hg-testimonial-author">- Priya Patel, M.Tech Electrical Engineering</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <img src="assets/logo.png" alt="SLIET Logo" class="footer-logo">
+                    <p class="footer-description">The SLIET Mentorship Program is dedicated to nurturing student potential through personalized guidance, fostering academic excellence, and preparing future leaders in technology and engineering.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Learn More</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About SLIET</a></li>
+                        <li><a href="#">Mentorship Program</a></li>
+                        <li><a href="#">Faculty Mentors</a></li>
+                        <li><a href="#">Student Resources</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Now</h3>
+                    <a href="tel:+911672253100" class="call-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        +91-1672-253100
+                    </a>
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5  5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                        <a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                        <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                        <a href="#" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="app-download">
+                <h3>Get Updates About Our Mentorship Program</h3>
+                <form id="app-download-form">
+                    <input type="email" placeholder="Enter Email Address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="copyright">
+                © Copyright 2024 SLIET Mentorship Program. All rights reserved.
+            </div>
+        </footer>
+        <script src="home.js"></script>
+        <script src="//code.tidio.co/s9wpkcpjgijf2c4rmc9lmiv5vurbj4j6.js" async></script>
+</body>
+<script>
+</script>
+</html>

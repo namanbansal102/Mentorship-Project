@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="./footer.css">
+    <title>Faculty Profile - SLIET Mentorship</title>
+    <style>
+        .time-slots {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .time-slot {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .time-slot:hover {
+            background-color: #f0f0f0;
+        }
+        .time-slot.selected {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <a href="#" class="navbar-logo">
+            <span class="logo-text"><img src="../assets/logo.png" alt=""></span>
+          </a>
+          <ul class="navbar-menu">
+         
+            <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="../faculties.html"><i class="fas fa-chalkboard-teacher"></i> Faculty</a></li>
+            <li><a href="../faculties.html"><i class="fas fa-user-friends"></i> Mentors</a></li>
+            <li><a href="../faculties.html"><i class="fas fa-calendar-check"></i> Book</a></li>
+            <li><a href="../contact.css"><i class="fas fa-envelope"></i> Contact</a></li>
+          </ul>
+          <div class="navbar-actions">
+            <div class="search-bar">
+              <input type="text" placeholder="Search..." id="search-input">
+            </div>
+            <a href="#login" class="login-button">
+              <i class="fas fa-user"></i>
+              <span>Login</span>
+            </a>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        <header class="profile-header">
+            <div class="profile-info">
+                <img src="../images/3.jpg" alt="Dr. Birmohan Singh" class="profile-image">
+                <div>
+                    <div class="doctor-specialty">Computer Science and Engineering</div>
+                    <h1 class="doctor-name">Dr. Major Singh Goraya</h1>
+                    <p class="doctor-qualifications">Ph.D., M.Tech., B.Tech.</p>
+                    <div class="languages">
+                        <img src="https://views.medibuddy.in/doctor-profile/languages.webp" alt="Languages" class="language-icon">
+                        <span>English, Hindi, Punjabi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-experience">
+                <div class="rating">
+                    <span class="star">★</span> 4.9
+                </div>
+                <div class="reviews">50 Reviews</div>
+                <div class="experience">25+ Years Experience</div>
+                <div class="action-buttons">
+                    <button class="action-button">
+                        <img src="https://views.medibuddy.in/doctor-profile/share-favorite.webp" alt="Share" width="24" height="24">
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main-content">
+            <div class="left-column">
+                <div class="card">
+                    <div class="card-title">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/neural-clarity-128610.appspot.com/o/android%2Fconsult%2FdefaultHospitalLogo.png?alt=media&token=568d3362-2683-45ff-a863-df8e85495439" alt="Department" width="24" height="24">
+                        Department
+                    </div>
+                    <p>Computer Science and Engineering, SLIET</p>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <img src="https://views.medibuddy.in/doctor-profile/about-doctor.webp" alt="About" width="24" height="24">
+                        About the faculty
+                    </div>
+                    <p>Dr. Birmohan Singh is a distinguished professor in the Department of Computer Science and Engineering at SLIET. With over two decades of experience in academia and research, he has made significant contributions to the fields of Artificial Intelligence, Data Mining, and Software Engineering. Dr. Singh is known for his innovative teaching methods and dedication to student mentorship. <a href="#">Read More</a></p>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <img src="https://views.medibuddy.in/doctor-profile/education.webp" alt="Education" width="24" height="24">
+                        Education
+                    </div>
+                    <div>
+                        <h3>Indian Institute of Technology, Roorkee</h3>
+                        <p>Ph.D. in Computer Science and Engineering</p>
+                    </div>
+                    <div>
+                        <h3>Punjab Engineering College, Chandigarh</h3>
+                        <p>M.E. in Computer Science and Engineering</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <img src="https://views.medibuddy.in/doctor-profile/specializations.webp" alt="Specializations" width="24" height="24">
+                        Specializations
+                    </div>
+                    <div>
+                        <span class="specialization-tag">Artificial Intelligence</span>
+                        <span class="specialization-tag">Data Mining</span>
+                        <span class="specialization-tag">Software Engineering</span>
+                        <span class="specialization-tag">Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="card">
+                    <h2>Schedule a Mentorship Session</h2>
+                    <div class="time-slots">
+                        <div class="time-slot" data-time="9:00 AM">9:00 AM</div>
+                        <div class="time-slot" data-time="11:00 AM">11:00 AM</div>
+                        <div class="time-slot" data-time="2:00 PM">2:00 PM</div>
+                        <div class="time-slot" data-time="4:00 PM">4:00 PM</div>
+                    </div>
+                    <button class="book-now-button" disabled>Select a Time Slot</button>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <img src="https://views.medibuddy.in/doctor-profile/membership.webp" alt="Research Interests" width="24" height="24">
+                        Research Interests
+                    </div>
+                    <p>Big Data Analytics, Internet of Things, Cloud Computing</p>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <img src="https://views.medibuddy.in/doctor-profile/medical-council-id.webp" alt="Contact" width="24" height="24">
+                        Contact Information
+                    </div>
+                    <p>Email: birmohan@sliet.ac.in</p>
+                    <p>Phone: +91-1672-253208</p>
+                    <p>Office: CSE Department, SLIET</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="container">
+        <div class="faq-section">
+            <div class="faq-title">
+                <img src="https://views.medibuddy.in/doctor-profile/faq.webp" alt="FAQ Icon" width="24" height="24">
+                Frequently Asked Questions
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What courses does Dr. Birmohan Singh teach?</h3>
+                    <button class="faq-toggle">
+                        <img src="https://views.medibuddy.in/doctor-profile/up-arrow.webp" alt="Toggle" width="24" height="24">
+                    </button>
+                </div>
+                <div class="faq-answer">
+                    <p>Dr. Singh teaches various courses including Artificial Intelligence, Data Mining, Software Engineering, and Advanced Algorithms at both undergraduate and postgraduate levels.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How can I schedule a meeting with Dr. Singh?</h3>
+                    <button class="faq-toggle">
+                        <img src="https://views.medibuddy.in/doctor-profile/up-arrow.webp" alt="Toggle" width="24" height="24">
+                    </button>
+                </div>
+                <div class="faq-answer">
+                    <p>You can schedule a meeting with Dr. Singh by clicking the "Book Now" button on his profile page or by contacting the CSE department office during working hours.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What research opportunities are available with Dr. Singh?</h3>
+                    <button class="faq-toggle">
+                        <img src="https://views.medibuddy.in/doctor-profile/up-arrow.webp" alt="Toggle" width="24" height="24">
+                    </button>
+                </div>
+                <div class="faq-answer">
+                    <p>Dr. Singh offers research opportunities in areas such as Big Data Analytics, IoT, and Cloud Computing. Interested students can discuss potential projects during his office hours or via email.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Does Dr. Singh provide mentorship for industry projects?</h3>
+                    <button class="faq-toggle">
+                        <img src="https://views.medibuddy.in/doctor-profile/up-arrow.webp" alt="Toggle" width="24" height="24">
+                    </button>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, Dr. Singh actively mentors students for industry projects, especially in the areas of AI and Software Engineering. He has strong industry connections and can provide valuable guidance for real-world applications.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What are Dr. Singh's office hours?</h3>
+                    <button class="faq-toggle">
+                        <img src="https://views.medibuddy.in/doctor-profile/up-arrow.webp" alt="Toggle" width="24" height="24">
+                    </button>
+                </div>
+                <div class="faq-answer">
+                    <p>Dr. Singh's office hours are typically Monday to Friday, 2:00 PM to 4:00 PM. However, it's recommended to check his current schedule or make an appointment via email for the most up-to-date information.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="assets/logo.png" alt="SLIET Logo" class="footer-logo">
+                <p class="footer-description">The SLIET Mentorship Program is dedicated to nurturing student potential through personalized guidance, fostering academic excellence, and preparing future leaders in technology and engineering.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Learn More</h3>
+                <ul class="footer-links">
+                    <li><a href="#">About SLIET</a></li>
+                    <li><a href="#">Mentorship Program</a></li>
+                    <li><a href="#">Faculty Profiles</a></li>
+                    <li><a href="#">Student Resources</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Now</h3>
+                <a href="tel:+911672253100" class="call-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    +91-1672-253100
+                </a>
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5  5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                    <a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0  1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                    <a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51"   y2="6.5"></line></svg></a>
+                    <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                    <a href="#" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="app-download">
+            <h3>Get Updates About Our Mentorship Program</h3>
+            <form id="app-download-form">
+                <input type="email" placeholder="Enter Email Address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="copyright">
+            © Copyright 2024 SLIET Mentorship Program. All rights reserved.
+        </div>
+    </footer>
+    <script>
+    document.querySelectorAll('.faq-toggle').forEach(button => {
+        button.addEventListener('click', () => {
+            const faqItem = button.closest('.faq-item');
+            faqItem.classList.toggle('active');
+        });
+    });
+
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', () => {
+            card.style.transform = 'scale(1.05)';
+            setTimeout(() => {
+                card.style.transform = 'scale(1)';
+            }, 200);
+        });
+    });
+
+    const timeSlots = document.querySelectorAll('.time-slot');
+    const bookNowButton = document.querySelector('.book-now-button');
+    let selectedTimeSlot = null;
+
+    timeSlots.forEach(slot => {
+        slot.addEventListener('click', () => {
+            if (selectedTimeSlot) {
+                selectedTimeSlot.classList.remove('selected');
+            }
+            slot.classList.add('selected');
+            selectedTimeSlot = slot;
+
+            const isAvailable = Math.random() < 0.5; // 50% chance of being available
+            bookNowButton.textContent = isAvailable ? 'Book Now' : 'Already Booked';
+            bookNowButton.disabled = !isAvailable;
+        });
+    });
+
+    async function sendEmail(email, type) {
+        const url = 'https://send-chitkara.vercel.app/api/sendMentorMail';
+
+        const data = {
+            "person": type,
+            "mentorName": "Birmohan Singh",
+            "mail": email,
+            "timeSlot": selectedTimeSlot ? selectedTimeSlot.dataset.time : "",
+            "special": "Computer Science and Engineering"
+        };
+
+        try {
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            if (response.ok) {
+                const result = await response.json();
+                console.log('Email sent successfully:', result);
+                alert('Email sent successfully!');
+            } else {
+                const error = await response.json();
+                console.error('Error sending email:', error);
+                alert('Failed to send email: ' + error.message);
+            }
+        } catch (error) {
+            console.error('Network error:', error);
+            alert('Network error: ' + error.message);
+        }
+    }
+
+    bookNowButton.addEventListener('click', async () => {
+        if (selectedTimeSlot) {
+            console.log("Book Now Button Clicked");
+            await sendEmail("birmohan@sliet.ac.in", "mentor");
+            await sendEmail("student@sliet.ac.in", "user");
+        }
+    });
+    </script>
+    <script src="//code.tidio.co/s9wpkcpjgijf2c4rmc9lmiv5vurbj4j6.js" async></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+{
+    "faculty": {
+      "professors": [
+        {
+          "id":1,
+          "name": "Dr. Birmohan Singh",
+          "qualification": "Ph.D., M.E.",
+          "phone": "+91-1672-253208",
+          "email": ["birmohansingh@sliet.ac.in", "birmohans@gmail.com"],
+          "profile_photo": "./images/birmohan.jpg"
+        },
+        {
+          "id":2,
+          "name": "Dr. Damanpreet Singh",
+          "qualification": "Ph.D., M.Tech, B.Tech.",
+          "phone": "+91-1672-253210",
+          "email": ["damanpreets@sliet.ac.in"],
+          "profile_photo": "./images/amarnath.jpg"
+        },
+        {
+          "id":3,
+          "name": "Dr. Major Singh Goraya",
+          "qualification": "Ph.D., M.Tech., B.Tech.",
+          "phone": "01672-253212",
+          "email": ["mjrsingh@yahoo.com"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/35/5e69c6be20c7e-bpfull.jpg"
+        },
+        {
+          "id":4,
+          "name": "Dr. Manoj Sachan",
+          "qualification": "B.Tech(Computer Science), M.E(Computer Science), Ph.D (Computer Science & Engineering)",
+          "phone": "+91-1672-253214",
+          "email": ["manojsachan@sliet.ac.in", "manojsachan@gmail.com"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/6/605c66bd3e3bc-bpfull.jpg"
+        }
+      ],
+      "associate_professors": [
+        {
+          "id":5,
+          "name": "Dr. Gurjinder Kaur",
+          "qualification": "B.E. Kyrgyz Technical University, Bishkek; M.S. BITS, Pilani; Ph.D SLIET, Longowal",
+          "phone": "+91-1672-253326",
+          "email": ["gurjinder13@yahoo.com"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/14/5f2245e7a7f1bde5dee5bda48e09d411-bpfull.jpg"
+        }
+      ],
+      "assistant_professors": [
+        {
+          "id":6,
+          "name": "Dr. Amar Nath",
+          "qualification": "Ph.D. in CSE from IIT Roorkee; M. Tech. in CSE from NIT Rourkela; B. Tech. in CSE from BIET Jhansi",
+          "phone": "01672-253610",
+          "email": ["amarnath@sliet.ac.in"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/467/66b8bb350cc46-bpfull.jpg"
+        },
+        {
+        "id":7,
+          "name": "Dr. Jagdeep Singh",
+          "qualification": "Ph.D. from University of Delhi; M. Tech, Computer Science & Engineering; B. Tech, Computer Science & Engineering",
+          "phone": "01672-253320",
+          "email": ["jagdeep@sliet.ac.in", "jagdeepknit@gmail.com"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/466/66f81ca30f4ff-bpfull.jpg"
+        },
+        {
+          "id":8,
+          "name": "Dr. Manminder Singh",
+          "qualification": "B.Tech (Computer Science & Engineering), M.Tech (Computer Science & Engineering), Ph. D (Computer Science & Engineering)",
+          "phone": "+91-01672-253328",
+          "email": ["manminderldh@gmail.com", "manmindersingh@sliet.ac.in"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/16/66693282b6269-bpfull.jpg"
+        },
+        {
+          "id":9,
+          "name": "Dr. Preetpal Kaur Buttar",
+          "qualification": "Ph.D (Computer Science & Engineering)",
+          "phone": "01672-253614",
+          "email": ["preetpal@sliet.ac.in"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/349/632d98c75d80f-bpfull.jpg"
+        },
+        {
+          "id":10,     
+          "name": "Dr. Tajinder Singh",
+          "qualification": "Ph.D entitled 'Machine Learning Based Text Mining in Social Media' from NIT Hamirpur, India",
+          "phone": "91-6283963279",
+          "email": ["tajindersingh@sliet.ac.in"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/468/64e3532d30fac-bpfull.jpg"
+        },
+        {
+          "id":11,
+          "name": "Dr. Utkarsh",
+          "qualification": "Doctor of Philosophy from JNU, New Delhi; M.Tech from JNU, New Delhi; B.Tech from CSJM University, Kanpur",
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/493/6165aace595a1-bpfull.jpg"
+        },
+        {
+          "id":12,
+          "name": "Dr. VINOD KUMAR VERMA",
+          "qualification": "Ph.D. Computer Science and Engineering",
+          "phone": "+91-1672-253218",
+          "email": ["vinod5881@gmail.com"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/17/28b95ba0ed455dca378c1ada58307bf6-bpfull.jpg"
+        },
+        {
+          "id":13,
+          "name": "Jaspal Singh",
+          "qualification": "M.E. (CSE & IT), Pursuing Ph.D. in Cloud Computing",
+          "phone": "01672-253327",
+          "email": ["safrisoft@yahoo.com", "jaspalsingh@sliet.ac.in"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/36/e0a878e8162fd75cb5eb6929d98df5c1-bpfull.jpg"
+        },
+        {
+          "id":14,
+          "name": "Rahul Gautam",
+          "qualification": "Ph.D. pursuing, M.Tech from Thapar University, Patiala; B.Tech from Sir Chhotu Ram Inst. of Engg. & Technology, Meerut",
+          "phone": "+91-1672-253612",
+          "email": ["rahulgautam@sliet.ac.in"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/350/666bf221c60a0-bpfull.jpg"
+        }
+      ],
+      "assistant_professors_contract": [
+        {
+          "id":15,
+          "name": "Dr. Jatinder Pal Singh",
+          "qualification": "B.Tech - Computer Science and Engineering, M.Tech - Computer Science and Engineering, Ph.D. - Computer Science and Engineering",
+          "email": ["sachdeva.jp@gmail.com", "jatinderpalsingh@sliet.ac.in"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/344/64edd5a68d11b-bpfull.jpg"
+        },
+        {
+          "id":16,
+          "name": "Sukhpreet Singh",
+          "qualification": "B.Tech, M.Tech, Ph.D (Pursuing)",
+          "email": ["sukhpreet.manshahia@gmail.com"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/353/60544f9339252-bpfull.jpg"
+        }
+      ],
+      "guest_part_time_teachers": [
+        {
+          "id":17,
+          "name": "Chinu",
+          "qualification": "Ph.D.(Pursuing), M.Tech, B.Tech",
+          "phone": "9915025805",
+          "email": ["chinu@sliet.ac.in"],
+          
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/477/605067c46b9c6-bpfull.jpg"
+        },
+        {
+          "id":18,
+          "name": "Dr. Vikash Kumar Garg",
+          "qualification": "B.Tech(IT), M.Tech(Computer Science & Engineering), Ph.D (Big Data, Hadoop, MongoDB)",
+          "phone": "9988610629",
+          "email": ["contactvikashgarg@gmail.com"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/457/605b0275612df-bpfull.jpg"
+        },
+        {
+          "id":19,
+          "name": "Sunita Rani",
+          "qualification": "Ph.D(Pursuing), M.Tech, B.Tech",
+          "phone": "8196013222",
+          "email": ["sunitarani@sliet.ac.in"],
+          "profile_photo": "http://sliet.ac.in/wp-content/uploads/avatars/516/64ed97380a462-bpfull.jpg"
+        }
+      ]
+    }
+  }

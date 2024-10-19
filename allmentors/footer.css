@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hg-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hg-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hg-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.hg-title-highlight {
+    color: #ff6600;
+}
+
+.hg-main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hg-phone-mockup {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 40px;
+}
+
+.hg-phone-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.hg-phone-image:hover {
+    transform: scale(1.05);
+}
+
+.hg-features {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hg-feature-list {
+    list-style-type: none;
+}
+
+.hg-feature-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #000;
+}
+
+.hg-feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hg-feature-item::before {
+    content: '✓';
+    color: #ff6600;
+    margin-right: 10px;
+}
+
+.hg-testimonials {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.hg-testimonials-title {
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.hg-testimonials-subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.hg-testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hg-testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.hg-testimonial:hover {
+    transform: translateY(-5px);
+}
+
+.hg-testimonial-text {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.hg-testimonial-author {
+    color: #ff6600;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .hg-main-content {
+        flex-direction: column;
+    }
+
+    .hg-phone-mockup {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+}
+.footer {
+    background-color: #ffffff;
+    padding: 2rem;
+    color: #333;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 1rem;
+}
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+}
+.footer-description {
+    font-size: 0.9rem;
+    color: #666;
+    max-width: 300px;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    color: #ff6600;
+}
+.call-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.call-button:hover {
+    background-color: #e65c00;
+}
+.app-badges img {
+    max-width: 140px;
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+.social-icons a {
+    color: #666;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #ff6600;
+}
+.app-download {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-download input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+.app-download button {
+    padding: 0.5rem 1rem;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.app-download button:hover {
+    background-color: #e65c00;
+}
+.copyright {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #666;
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-section {
+        margin-bottom: 2rem;
+    }
+    .app-download {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .app-download form {
+        margin-top: 1rem;
+    }
+}
